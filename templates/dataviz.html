@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Visualization</title>
+</head>
+<body>
+    <h1> {{ username }}'s medical cost vs age Plot </h1>
+    <img src="{{ url_for('figures') }}">
+    <br><br>
+    <em>Your estimated medical cost when you are {{ age }}:</em>
+    <br><h2>${{ cost }}</h2>
+</body>
+</html>

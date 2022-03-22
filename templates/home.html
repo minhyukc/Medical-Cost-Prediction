@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ITP-216 Final Project</title>
+</head>
+<body>
+    <h1>ITP-216 Medical Cost Estimation & Data Visualization Project</h1>
+    <strong> {{ message }} </strong>
+    <form action="/action/getinfo" method="POST">
+        <br><strong>Name:</strong>
+        <input type="text" name="username" placeholder="Your name"><br>
+        <br><strong>Age:</strong>
+        <input type="text" name="age" placeholder="Age in years"><br>
+        <br><strong>Height:</strong>
+        <input type="text" name="height" placeholder="inches"><br>
+        <br><strong>Weight:</strong>
+        <input type="text" name="weight" placeholder="lbs"><br>
+        <br><strong>Children:</strong>
+        <input type="text" name="children" placeholder="Number of children"><br>
+        <br><strong>Gender:</strong>
+            <input type="radio" name="sex_request" value="sex">
+                Male
+            <input type="radio" name="sex_request" value="sex">
+                Female
+        <br><br><strong>Smoker:</strong>
+            <input type="radio" name="smoker_request" value="smoker">
+                Yes
+            <input type="radio" name="smoker_request" value="smoker">
+                No
+        <br><br><strong>Region:</strong>
+            <input type="radio" name="region" value="region">
+                Southwest
+            <input type="radio" name="region" value="region">
+                Southeast
+            <input type="radio" name="region" value="region">
+                Northwest
+            <input type="radio" name="region" value="region">
+                Northeast
+
+        <br><br><br><p><input type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>
+

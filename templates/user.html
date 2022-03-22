@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estimated Cost for {{ username }}</title>
+</head>
+<body>
+    <h1>Medical Cost Estimation for {{ username }}</h1>
+    <em>Your estimated medical cost billed by medical insurance</em>
+    <br><br>
+    <h2>$ {{ cost }}</h2>
+    <br><br>
+    <form action="/future" method="POST">
+    <em>Do you want to see your medical cost after 5 years?</em>
+    <em>Click the button below.</em>
+    <p><input type="submit" name="submit" value="Show me the graph and the estimated cost!"></p>
+    </form>
+
+</body>
+</html>
